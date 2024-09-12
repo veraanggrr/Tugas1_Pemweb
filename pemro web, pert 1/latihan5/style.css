@@ -1,0 +1,131 @@
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 500px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: #5050506c;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  display: grid;
+  justify-content: center;
+}
+
+main h1 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+label {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+select::placeholder {
+  color: white;
+}
+
+option {
+  color: black;
+}
+
+input {
+  padding: 5px;
+  color: white;
+}
+
+select {
+  padding: 3px;
+  width: 100%;
+}
+
+body {
+  background-image: url(image/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button {
+  background-color: #2729a8;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  justify-content: center;
+  width: 200px;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+}
+
+.container1 {
+  display: flex;
+}
+
+.container-input {
+  margin: 10px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+#Nama {
+  background: transparent;
+  border: none;
+  border-bottom: 1px white solid;
+}
+
+#nim {
+  background: transparent;
+  border: none;
+  border-bottom: 1px white solid;
+}
+
+#tptl {
+  background: transparent;
+  border: none;
+  border-bottom: 1px white solid;
+}
+
+#tgll {
+  background: transparent;
+  border: none;
+  border-bottom: 1px white solid;
+  color: white;
+  width: 165px;
+  padding: 3.5px;
+}
+
+#prodi {
+  background: transparent;
+  border: none;
+  border-bottom: 1px white solid;
+  color: white;
+}
+
+select {
+  background: transparent;
+}

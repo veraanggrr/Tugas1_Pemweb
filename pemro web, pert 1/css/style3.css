@@ -1,0 +1,25 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  border: 2px solid #fff;
+  padding: 20px;
+  border-radius: 100px;
+  background-color: rgb(174, 222, 138);
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+body {
+  background-color: #c4a69f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}

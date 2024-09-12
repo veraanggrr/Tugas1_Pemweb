@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wonwoo</title>
+    <style>
+      .card {
+        background-image: url(image/wonwoo.jfif);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* width: 100%;
+    height: 100vh; */
+        width: 300px;
+        height: 450px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        position: relative;
+      }
+
+      img {
+        width: 50px;
+        position: absolute;
+        right: 30px;
+        top: 25px;
+      }
+
+      table {
+        position: absolute;
+        bottom: 0px;
+        opacity: 0;
+      }
+
+      td {
+        color: white;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url(image/Wallpapers.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .card:hover table {
+        position: absolute;
+        animation: up 1s ease-in forwards;
+      }
+
+      a {
+        background-color: rgba(255, 255, 255, 0.363);
+        text-decoration: none;
+        color: black;
+        width: 80px;
+        text-align: center;
+        padding: 5px;
+        border-radius: 10px;
+        position: absolute;
+      }
+
+      a:hover {
+        background-color: rgb(255, 255, 255);
+      }
+
+      @keyframes up {
+        from {
+          bottom: 0px;
+          opacity: 0;
+        }
+
+        to {
+          bottom: 30px;
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <table>
+        <tr>
+          <td>Nama</td>
+          <td>:</td>
+          <td>Jeon Wonwoo</td>
+        </tr>
+        <tr>
+          <td>Tempat Lahir</td>
+          <td>:</td>
+          <td>Changwon</td>
+        </tr>
+        <tr>
+          <td>Tanggal Lahir</td>
+          <td>:</td>
+          <td>17 Juli 1996</td>
+        </tr>
+        <tr>
+          <td>Agensi</td>
+          <td>:</td>
+          <td>Pledis Entertainment</td>
+        </tr>
+        <!-- <tr>
+          <td></td>
+          <td></td>
+          <td><img src="image/wonwoo.jfif" alt="wonwoo" width="100" /></td>
+        </tr> -->
+      </table>
+
+      <a href="latihan4.html">kembali</a>
+      <img src="image/logo.png" alt="Image" />
+    </div>
+  </body>
+</html>

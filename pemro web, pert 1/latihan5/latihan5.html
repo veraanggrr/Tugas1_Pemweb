@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>latihan 5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Formulir</h1>
+
+      <form action="">
+        <div class="container1">
+          <div class="container-input">
+            <!-- Input Nama -->
+            <label for="Nama">Nama: </label> <br />
+            <input type="text" name="Nama" id="Nama" /> <br />
+          </div>
+          <div class="container-input">
+            <!-- Input NIM -->
+            <label for="nim">NIM:</label> <br />
+            <input type="text" name="nim" id="nim" /> <br />
+          </div>
+        </div>
+
+        <div class="container1">
+          <div class="container-input">
+            <!-- Input Tempat Lahir -->
+            <label for="tptl">Tempat Lahir:</label> <br />
+            <input type="text" name="tptl" id="tptl" /> <br />
+          </div>
+
+          <div class="container-input">
+            <!-- Input Tanggal Lahir -->
+            <label for="tgll">Tanggal Lahir:</label> <br />
+            <input type="date" name="TglL" id="tgll" /> <br />
+          </div>
+        </div>
+
+        <div class="container-input">
+          <!-- Input Program Studi -->
+          <label for="prodi">Program Studi:</label> <br />
+          <select name="Prodi" id="prodi">
+            <option value="PGSD">Pendidikan Guru Sekolah Dasar</option>
+            <option value="PGPAUD">
+              Pendidikan Guru Pendidikan Anak Usia Dini
+            </option>
+            <option value="PKP">Pendidikan Kelautan dan Perikanan</option>
+            <option value="SIK">Sistem Informasi Kelautan</option>
+            <option value="LK">Logistik Kelautan</option>
+          </select>
+          <br />
+        </div>
+
+        <div class="container2">
+          <div class="container-input">
+            <!-- Input Jenis Kelamin -->
+            <label for="jk_laki">Jenis Kelamin:</label> <br />
+            <input type="radio" name="JK" value="Laki-Laki" id="jk_laki" />
+            <label for="jk_laki">Laki-Laki</label> <br />
+            <input type="radio" name="JK" value="Perempuan" id="jk_perempuan" />
+            <label for="jk_perempuan">Perempuan</label> <br />
+          </div>
+
+          <div class="container-input">
+            <!-- Input Hobi -->
+            <label for="hobi_baca">Hobi</label> <br />
+            <input type="checkbox" name="hobby" value="Baca" id="hobi_baca" />
+            <label for="hobi_baca">Baca</label> <br />
+            <input type="checkbox" name="hobby" value="Nulis" id="hobi_nulis" />
+            <label for="hobi_nulis">Nulis</label> <br />
+            <input
+              type="checkbox"
+              name="hobby"
+              value="Nonton"
+              id="hobi_nonton"
+            />
+            <label for="hobi_nonton">Nonton</label> <br />
+            <input
+              type="checkbox"
+              name="hobby"
+              value="Olah Raga"
+              id="hobi_olahraga"
+            />
+            <label for="hobi_olahraga">Olah Raga</label>
+          </div>
+        </div>
+        <hr />
+        <!-- Simpan -->
+        <div class="container-button">
+          <input type="submit" value="Simpan" id="button" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

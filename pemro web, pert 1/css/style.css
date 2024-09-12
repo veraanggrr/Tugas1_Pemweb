@@ -1,0 +1,24 @@
+:root {
+  --primary: #c4a69f;
+  --satu: #7480b9;
+}
+
+body {
+  background-color: #c4a69f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+* {
+  font-family: "poppins", sans-serif;
+}
+h1 {
+  border: 2px solid #fff;
+  padding: 20px;
+  border-radius: 100px;
+  background-color: var(--satu);
+  text-align: center;
+}
